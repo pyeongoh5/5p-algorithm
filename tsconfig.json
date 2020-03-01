@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "lib": ["es5", "es6", "es7", "es2017", "dom"],
+    "module": "commonjs",
+    "target": "es2018",
+    "types": [],
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "baseUrl": ".",
+    "rootDir": "."
+  },
+  "awesomeTypescriptLoaderOptions": {
+    "transpileOnly": true,
+    "useCache": true
+  },
+  "exclude": [
+    "node_modules",
+    "@types/jest",
+    "jest",
+    "ts-jest",
+    "dist/**/*.*",
+    "**/*.test.*"
+  ]
+}
